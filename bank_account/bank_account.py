@@ -1,5 +1,5 @@
 class BankAccount:
-    def __init__(self, initial_balance=0):
+    def __init__(self, initial_balance=0):;
         if initial_balance < 0:
             raise ValueError("Initial balance cannot be negative")
         self.balance = initial_balance
